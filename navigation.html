@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Menu Demo</title>
+    
+    <style>
+      
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}     
+
+
+.logo {
+    display: block;
+    float: left;
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+
+.nav-bar ul {
+    list-style: none;
+    float: right;
+}
+
+
+.nav-bar ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.nav-bar ul li a {
+    display: inline;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+
+
+
+
+.clear {
+    clear: both;
+}
+
+
+.content {
+    padding: 20px;
+    background: #ecf0f1;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">My Website</h1>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+
+    <section class="content">
+        <h2>Welcome</h2>
+        <p>This is a demo page showing how block, inline, inline-block, float and clear work together in CSS.</p>
+    </section>
+
+</body>
+</html>
